@@ -1,0 +1,21 @@
+{
+  "name": "raspberryserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node socketserver.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http": "0.0.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "^1.9.1",
+    "onoff": "^3.2.1",
+    "set": "^1.1.1",
+    "socket.io": "^2.1.1",
+    "start": "^5.1.0"
+  }
+}
